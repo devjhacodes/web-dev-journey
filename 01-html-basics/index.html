@@ -46,11 +46,16 @@
         <section id="projects">
             <h2>Projects</h2>
             <p>Here are some of the projects I have worked on:</p>
-            <ul>
-                <li><a href="#">Project 1</a></li>
-                <li><a href="#">Project 2</a></li>
-                <li><a href="#">Project 3</a></li>
-            </ul>
+            <div class="grid-container">
+                <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 16px; border-radius: 6px;">
+                    <h3><a href="#">Portfolio Site</a></h3>
+                    <p>Clean semantic HTML & modular CSS structure.</p>
+                </div>
+                <div style="background: #f8fafc; border: 1px solid #e2e8f0; padding: 16px; border-radius: 6px;">
+                    <h3><a href="#">Business Portal</a></h3>
+                    <p>Local client integration with Google Business API.</p>
+                </div>
+            </div>
         </section>
 
         <section id="contact">
@@ -59,21 +64,23 @@
             <form action="#" method="post">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
-                <br>
+
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
-                <br>
+
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
-                <br>
+
                 <label for="options">Select an option:</label>
                 <select name="options" id="options">
                     <option value="internship">Internship</option>
                     <option value="job">Job</option>
                     <option value="freelance">Freelance</option>
                 </select>
-                <br>
-                <input type="submit" value="Submit">
+
+                <div class="form-actions">
+                    <input type="submit" value="Submit">
+                </div>
             </form>
         </section>
     </main>
