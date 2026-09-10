@@ -1,0 +1,38 @@
+.price-stock{
+    color:rgb(28, 189, 23);
+}
+
+.amazon-button{
+    background-color:rgb(255, 216, 20);
+    color:black;
+    height: 36px;
+    width:150px;
+    border:none;
+    border-radius:18px;
+    font-weight: bold;
+    cursor:pointer;
+    transition: background-color 0.15s ease, opacity 0.15s;
+}
+
+.amazon-button:hover{
+    background-color: rgb(255, 200, 0);
+}
+
+.amazon-button:active{
+    opacity:0.4;
+}
+
+.buy-button{
+    background-color:orange;
+    color:black;
+    height: 36px;
+    width: 150px;
+    border:none;
+    border-radius:18px;
+    font-weight: bold;
+    cursor:pointer;
+    transition: background-color 0.15s, opacity 0.15s, color 0.15s;
+}
+.buy-button:hover{
+    background-color: rgb(255, 140, 0);
+}

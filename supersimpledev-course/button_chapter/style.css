@@ -9,6 +9,7 @@
     margin-right: 10px;
     font-weight: bold;
     font-size: 13px;
+    transition: opacity 0.15s;
 }
 
 .join-button{
@@ -22,6 +23,7 @@
     margin-right: 10px;
     font-weight: bold;
     font-size: 15px;
+    transition: background-color 0.15s, color 0.15s;
 }
 
 .tweet-button{
@@ -35,12 +37,15 @@
     font-weight: bold;
     font-size: 15px;
 
-
 }
 
 
 .youtube-button:hover{
-    background-color: rgb(250, 85, 85);
+    opacity:0.8;
+}
+
+.youtube-button:active{
+    opacity:0.4;
 }
 
 .join-button:hover{
@@ -48,8 +53,12 @@
     color:white;
 }
 
+.join-button:active{
+    opacity:0.4;
+}
+
 .tweet-button:hover{
-    background-color: rgb(0, 98, 246);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
 }
 
 .request-button{
@@ -62,7 +71,7 @@
 }
 
 .request-button:hover{
-    background-color: rgb(108, 117, 194);
+    opacity:0.8;
 }
 
 .amazon-button{
@@ -76,7 +85,7 @@
 }
 
 .amazon-button:hover{
-    background-color: rgb(157, 157, 15);
+    background-color: rgb(255, 200, 0);
 }
 
 .github-button{
@@ -91,7 +100,7 @@
 }
 
 .github-button:hover{
-    background-color: rgb(0, 98, 246);
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
 }
 
 .bootstrap-button{
@@ -106,7 +115,7 @@
 }
 
 .bootstrap-button:hover{
-    background-color: rgb(0, 98, 246);
+    opacity:0.8;
 }
 
 .download-button{
@@ -135,7 +144,7 @@
 }
 
 .linkedin-button:hover{
-    background-color: rgb(0, 98, 246);
+    background-color: rgb(0, 57, 171);
 }
 
 .save-button{
@@ -151,6 +160,6 @@
 }
 
 .save-button:hover{
-    background-color: rgb(0, 98, 246);
-    color:white;
+    opacity:0.8;
+    border-width: 3px;
 }
