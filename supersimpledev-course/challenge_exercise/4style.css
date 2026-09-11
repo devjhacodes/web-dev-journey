@@ -1,0 +1,63 @@
+a{
+    margin:4px;
+}
+
+.back-button,.next-button{
+    padding:8px;
+    font-size: 16px;
+    margin-right:8px;
+    margin-left:8px;
+}
+
+.search-button{
+    margin: 4px;
+    font-size: 18px;
+}
+
+.stretch-button{
+    background-color: green;
+    color:white;
+    font-size: 18px;
+    border: none;
+    padding:8px 15px;
+    cursor:pointer;
+    transition: padding 1s;
+}
+
+.stretch-button:hover{
+    padding:18px 36px;
+}
+
+.d-button{
+    background-color:green;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    font-size: 16px;
+    cursor:pointer;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+.d-button:active{
+    margin:3px 3px;
+    box-shadow:none;
+}
+
+.one-button{
+    background-color:green;
+    color:white;
+    border:none;
+    padding:8px 15px;
+    margin:10px;
+    cursor:pointer;
+    transition: padding 0.15s,
+      margin 0.15s;   
+}
+
+.one-button:hover{
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left:0;
+    margin-right:0;
+}
+

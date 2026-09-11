@@ -3,8 +3,7 @@
     color: white;
     border: none;
     border-radius: 3px;
-    width: 110px;
-    height: 40px;
+    padding: 12px 16px;
     cursor:pointer;
     margin-right: 10px;
     font-weight: bold;
@@ -15,8 +14,7 @@
 .join-button{
     background-color: white;
     color:rgb(0, 98, 246);
-    height:40px;
-    width:70px;
+    padding: 10px 16px;
     border: 1px solid rgb(0, 98, 246);
     border-radius: 3px;
     cursor:pointer;
@@ -29,8 +27,7 @@
 .tweet-button{
     background-color:rgb(21, 165, 255);
     color: white;
-    height:40px;
-    width:75px;
+    padding: 12px 16px;
     border:none;
     border-radius:20px;
     cursor:pointer;
@@ -64,8 +61,7 @@
 .request-button{
     background-color:black;
     color: white;
-    height: 36px;
-    width:100px;
+    padding: 12px 16px;
     border:none;
     cursor:pointer;
 }
@@ -77,8 +73,7 @@
 .amazon-button{
     background-color: rgb(255, 216, 20);
     color:black;
-    height: 36px;
-    width:150px;
+    padding: 12px 26px;
     border:none;
     border-radius: 18px;
     cursor:pointer;
@@ -91,8 +86,7 @@
 .github-button{
     background-color:rgb(46, 164, 79);
     color: white;
-    height: 36px;
-    width: 90px;
+    padding: 12px 16px;
     border:none;
     border-radius:5px;
     font-weight: bold;
@@ -106,8 +100,7 @@
 .bootstrap-button{
     background-color:rgb(121, 82, 179);
     color: white;
-    height: 36px;
-    width: 96px;
+    padding: 12px 16px;
     border:none;
     font-weight: bold;
     border-radius: 3px;
@@ -121,8 +114,7 @@
 .download-button{
     background-color:white;
     color:rgb(108, 117, 194);
-    height: 36px;
-    width: 96px;
+    padding: 11px 16px;
     border:1px solid rgb(108, 117, 194);
     cursor:pointer;
 }
@@ -135,8 +127,7 @@
 .linkedin-button{
     background-color:rgb(10, 102, 194);
     color: white;
-    height: 36px;
-    width: 200px;
+    padding: 12px 16px;
     border:none;
     border-radius: 18px;
     font-weight: bold;
@@ -150,8 +141,7 @@
 .save-button{
     background-color:white;
     color:rgb(10, 102, 194);
-    height: 36px;
-    width: 70px;
+    padding: 11px 16px;
     border:1px solid rgb(10, 102, 194);
     border-radius:18px;
     cursor:pointer;
