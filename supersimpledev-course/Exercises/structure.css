@@ -1,0 +1,18 @@
+.model{
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.des{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color:black;
+}
+.touchless{
+    text-decoration: underline;
+}
