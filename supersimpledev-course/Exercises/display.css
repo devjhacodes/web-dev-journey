@@ -27,9 +27,7 @@ h3{
 }
 
 .logo{
-    display: block;
     width: 400px;
-    margin: 0 auto;
 
 }
 
@@ -38,10 +36,13 @@ h3{
     border:none;
     padding: 10px 10px;
     border-radius: 250px;
-    display: block;
-    margin: 0 auto;
     margin-top: 10px;
     margin-bottom: 100px;
     font-size: 20px;
     box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.google-search{
+    text-align:center;
+    margin: 0 auto;
 }

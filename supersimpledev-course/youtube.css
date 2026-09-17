@@ -2,5 +2,15 @@
     width:300px;
 }
 
+.search-box{
+    display:block;
+}
+.vedio-preview{
+    width:300px;
+    display:inline-block;
+    vertical-align:top;
+    margin-right:15px;
+}
+
 
 

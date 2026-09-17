@@ -1,0 +1,50 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+img{
+    width:220px;
+    height:220px;
+    object-fit:cover;
+    object-position:center;
+}
+
+.cat-card{
+    width:220px;
+    border:1px solid rgb(200,200,200);
+    margin:15px 5px;
+    display:inline-block;
+}
+
+.cat-name{
+    font-size:20px;
+    padding:4px 8px;
+    font-weight:bold;
+    
+}
+
+.cat-friend{
+    font-size:16px;
+    padding:0px 8px;
+    color:rgb(100,100,100);
+}
+
+.cat-follow{
+    background-color:rgb(0, 115, 255);
+    color:white;
+    border:none;
+    padding:10px 20px;
+    font-size:16px;
+    font-weight:bold;
+    margin:8px 8px;
+}
+
+.cat-follow:hover{
+    opacity:0.8;
+}
+
+.cat-follow:active{
+    opacity:0.4;
+}
