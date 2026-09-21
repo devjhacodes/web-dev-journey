@@ -1,0 +1,57 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.box-1{
+    background-color:lightblue;
+    width:200px
+}
+
+.box-2{
+    background-color:lightpink;
+    width:75px;
+}
+
+.item-container{
+    display:flex;
+    flex-direction:row;
+}
+
+.item-1{
+    background-color:lightblue;
+    width:50px;
+}
+
+.item-2{
+    background-color:lightpink;
+    flex:1;
+}
+
+.item-3{
+    background-color:lightblue;
+    width:75px;
+}
+
+.item1,.item2,.item3,.item4{
+    background-color:lightpink;
+}
+
+.items2-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+}
+
+.ite-container{
+    display:flex;
+    flex-direction:row;
+    height:50px;
+    border:1px solid grey;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.ite-1,.ite-2{
+    background-color:lightpink;
+}
