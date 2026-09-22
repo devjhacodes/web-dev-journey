@@ -70,3 +70,76 @@
     margin-bottom:20px;
 }
 
+.tweet{
+    display:flex;
+    flex-direction:row;
+    width:400px;
+    margin-bottom:200px;
+}
+
+p{
+    font-family: Arial, Roboto, sans-serif;
+}
+
+.profile-picture{
+    margin-right:12px;
+}
+
+.profile-pic{
+    height: 50px;
+    width:50px;
+    border-radius:25px;
+    object-fit:cover;
+    object-position:center;
+}
+
+.tweet-header{
+    display:flex;
+    flex-direction:row;
+    margin-bottom:5px;
+}
+
+.tweet-name{
+    font-size:16px;
+    font-weight:bold;
+    margin-right:5px;
+}
+
+.tweet-handle{
+    font-size:16px;
+    color:gray;
+}
+
+.tweet-body{
+    font-size:14px;
+}
+
+.tweet-link-image{
+    width: 130px;
+    height: 80px;
+    margin-right: 10px;
+    background-color: lightgray;
+}
+.tweet-link{
+    display:flex;
+    flex-direction:row;
+    margin-top: 10px;
+    border: 1px solid lightgray;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.tweet-link-content{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.tweet-link-header{
+    font-size:14px;
+    color:gray;
+    font-weight:bold;
+    margin-bottom:4px;
+}
+
+
