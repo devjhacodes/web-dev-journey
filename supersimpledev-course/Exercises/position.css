@@ -1,0 +1,72 @@
+/* 15a. */
+/* button{
+    background-color:black;
+    color:white;
+    border:none;
+    padding:10px 10px;
+    border-radius:50%;
+    position:absolute;
+    top:0;
+    right:0;
+} */
+
+/* 15b. */
+/* .container{
+    background-color:gray;
+    width:320px;
+    height:180px;
+    position:fixed;
+    bottom:0px;
+    right:0;
+} */
+
+/* 15c. */
+/* button{
+    background-color:black;
+    color:white;
+    border:none;
+    padding:10px 10px;
+    border-radius:50%;
+    position:absolute;
+    top:-10px;
+    left:-10px;
+}
+
+.container{
+    background-color:gray;
+    width:320px;
+    height:180px;
+    position:fixed;
+    bottom:10px;
+    right:0;
+} */
+
+/* 15d. */
+button{
+    background-color:black;
+    color:white;
+    border:none;
+    padding:10px 10px;
+    border-radius:50%;
+    position:absolute;
+    top:-10px;
+    left:-10px;
+}
+
+.container{
+    background-color:gray;
+    width:320px;
+    height:180px;
+    position:fixed;
+    bottom:10px;
+    right:0;
+}
+
+.time{
+    background-color:black;
+    color:white;
+    padding:5px 10px;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+}
