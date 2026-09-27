@@ -3,6 +3,12 @@
     flex-direction: row;
     height: 55px;
     justify-content: space-between;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: rgb(255,255,255);
+    border-bottom: 1px solid rgb(230,230,230);
 }
 
 .center{
