@@ -1,10 +1,61 @@
-.sidebar{
-    position: fixed;
-    top:55px;
-    left:0;
-    bottom:0;
-    width: 72px;
-    padding-top: 4px;
-    background-color: white;
-    border-right: 1px solid rgb(230,230,230);
+/* 1. Base Styles (Default / Mobile / Small Screen) */
+.sidebar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 55px;
+  width: 72px;
+  background-color: white;
+  border-right: 1px solid rgb(230, 230, 230);
+  z-index: 200;
+  padding-top: 4px;
 }
+
+.sidebar-link {
+  height: 74px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebar-link:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.sidebar-link img {
+  height: 24px;
+  margin-bottom: 4px;
+}
+
+.sidebar-link div {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 10px;
+}
+
+/* 2. Media Query (Expanded Sidebar for Screens 1200px and wider) */
+@media (min-width: 1200px) {
+  .sidebar {
+    width: 240px;
+    padding-top: 12px;
+  }
+
+  .sidebar-link {
+    height: 40px;
+    flex-direction: row;      /* Places icon and text side by side */
+    justify-content: flex-start;
+    padding-left: 24px;
+  }
+
+  .sidebar-link img {
+    margin-bottom: 0;
+    margin-right: 24px;       /* Adds clean gap between icon and label */
+  }
+
+  .sidebar-link div {
+    font-size: 14px;
+  }
+}
+
+
