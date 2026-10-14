@@ -160,7 +160,7 @@ console.log(minMax[3]);
 */
 
 // 11n
-
+/*
 function countWords(words) {
         const result = {};
 
@@ -178,3 +178,31 @@ function countWords(words) {
       }
 
 console.log(countWords(['apple', 'grape', 'apple', 'apple']));
+*/
+// 11o & 11p
+/*
+const array=['hello','world','search','day1','search'];
+let index = -1;
+
+for(let i = 0; i <= array.length; i++){
+    if(array[i] === 'search'){
+        index = i;
+        break;
+    }   
+}
+
+console.log(index);
+*/
+let index = 0;
+function findIndex(array,word){
+    for(let i = 0; i <= array.length; i++){
+        if(array[i] === word){
+            index ++;
+        }else if (!array[i] === word){
+            index = -1;
+        }
+    }
+    return index;
+}
+
+console.log(findIndex(['hello','world','search','day1','search'],'dev'));
