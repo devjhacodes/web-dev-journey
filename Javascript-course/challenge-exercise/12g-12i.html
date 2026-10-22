@@ -8,26 +8,28 @@
 </head>
 
 <body>
-    <button onclick="
-      messages++;
-      displayNotification();
-    ">Add</button>
+    <button class="js-add-btn">Add</button>
 
-    <button onclick="
-      if (messages > 0) {
-        messages--;
-
-        // If there are no new messages, stop displaying
-        // the notification in the tab.
-        if (messages === 0) {
-          stopNotification();
-        }
-      }
-    ">Remove</button>
+    <button class="js-remove-btn">Remove</button>
     <script>
+        // 12 q
+        document.querySelector('.js-add-btn').addEventListener('click',() => {
+            messages++;
+            displayNotification();
+        });
+
+        document.querySelector('.js-remove-btn').addEventListener('click',() => {
+            if (messages > 0){
+                messages--;
+
+                if(messages == 0){
+                    stopNotification();
+                }
+            }
+        });
         // 12g
         /*
-        setInterval(function () {
+        setInterval( () => {
             if (document.title === 'App') {
                 document.title = '(2) New messages';
             } else {
@@ -61,7 +63,7 @@
 
             isDisplayingNotification = true;
 
-            intervalId = setInterval(function () {
+            intervalId = setInterval( () => {
                 if (document.title === 'App') {
                     document.title = `(${messages}) New messages`;
                 } else {
